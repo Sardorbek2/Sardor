@@ -1,0 +1,115 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+    scroll-behavior: smooth;
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  
+  body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", "Arial", "sans-serif";
+    font-size: 18px;
+    line-height: normal;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    object-fit: cover;
+  }
+  
+  
+  form {
+    margin-left: 40px;
+  }
+  
+  button {
+    margin-bottom: 200px;
+    display: inline-block;
+  }
+  
+  .sport__span {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    transform: translateY(10px);
+  }
+  
+  .sport__input:checked + .sport__span {
+    background-image: url("../img/table-tennis.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 80%;
+    background-position: 2px;
+  }
+  .sport1__span {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    transform: translateY(10px);
+  }
+  
+  .sport1__input:checked + .sport1__span {
+    background-image: url("../img/basketball-ball.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 80%;
+    background-position: 2px;
+  }
+  .sport2__span {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    transform: translateY(10px);
+  }
+  
+  .sport2__input:checked + .sport2__span {
+    background-image: url("../img/volleyball-ball.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 80%;
+    background-position: 2px;
+  }
+  .sport3__span {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    transform: translateY(10px);
+  }
+  
+  .sport3__input:checked + .sport3__span {
+    background-image: url("../img/hockey-puck.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 80%;
+    background-position: 2px;
+  }
